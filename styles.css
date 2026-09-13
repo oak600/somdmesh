@@ -39,9 +39,10 @@ h2 { font-size: 2rem; line-height: 1.2; letter-spacing: -.035em; margin: 0 0 1.2
 .hero-description { max-width: 480px; font-size: 1.15rem; color: #c9d6df; margin: 0 0 2rem; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; gap: 2rem; min-height: 52px; padding: .7rem 1.2rem; color: var(--navy); background: var(--green); border-radius: 5px; font-weight: 650; text-decoration: none; }
 .button:hover { background: #cdf5a6; }
-.channel-card { min-width: 0; display: grid; grid-template-rows: auto auto 1fr; align-content: start; padding: 32px; background: #1b3a49; border: 1px solid #41606b; border-top: 3px solid var(--green); border-radius: 8px; }
+.channel-card { min-width: 0; display: grid; grid-template-rows: auto auto 1fr auto; align-content: start; padding: 32px; background: #1b3a49; border: 1px solid #41606b; border-top: 3px solid var(--green); border-radius: 8px; }
 .channel-card .eyebrow { margin-bottom: .6rem; }
 .channel-card h2 { font-size: 1.65rem; }
+.channel-button { margin-top: 24px; justify-content: center; text-align: center; }
 .settings { margin: 0; display: grid; grid-template-rows: auto auto 1fr auto; }
 .settings > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: baseline; gap: 1rem; padding-block: 14px; border-bottom: 1px solid #41606b; }
 .settings dt { color: #cedae0; font-size: .9rem; }

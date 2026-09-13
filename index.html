@@ -28,18 +28,29 @@
           <p class="hero-description">Welcome to SoMdMesh.org! Here you'll find information on the local Southern Maryland mesh networks. This site is new and will get updated as we connect more volunteers and hobbyists, so please check back often!</p>
           <a class="button" href="#channel">Our channel settings <span aria-hidden="true">↗</span></a>
         </div>
-        <aside class="channel-card" id="channel" aria-labelledby="channel-title">
-          <p class="eyebrow">Channel Info</p>
-          <h2 id="channel-title">Meshtastic Settings</h2>
-          <dl class="settings">
-            <div><dt>Frequency Slot</dt><dd class="slot">20</dd></div>
-            <div><dt>Channel Name</dt><dd><code>SoMdMesh</code></dd></div>
-            <div><dt>Encryption Code</dt><dd><code>AQ==</code></dd></div>
-            <div><dt>Coding Preset</dt><dd><code>LongFast</code></dd></div>
-          </dl>
-          <p class="settings-note">Add a new channel with the above settings to join the mesh!</p>
-        </aside>
-        The LongFast default channel on frequency slot 20 is also commonly used.
+        <div class="channels" id="channel">
+          <aside class="channel-card" aria-labelledby="channel-title">
+            <p class="eyebrow">Meshtastic Channel Info</p>
+            <h2 id="channel-title">General SOMD Channel</h2>
+            <dl class="settings">
+              <div><dt>Frequency Slot</dt><dd class="slot">20</dd></div>
+              <div><dt>Channel Name</dt><dd><code>SoMdMesh</code></dd></div>
+              <div><dt>Encryption Code</dt><dd><code>AQ==</code></dd></div>
+              <div><dt>Coding Preset</dt><dd><code>LongFast</code></dd></div>
+            </dl>
+          </aside>
+          <aside class="channel-card" aria-labelledby="alert-channel-title">
+            <p class="eyebrow">Meshtastic Channel Info</p>
+            <h2 id="alert-channel-title">Local Alert Channel</h2>
+            <dl class="settings">
+              <div><dt>Frequency Slot</dt><dd class="slot">20</dd></div>
+              <div><dt>Channel Name</dt><dd><code>SoMd-WARN</code></dd></div>
+              <div><dt>Encryption Code</dt><dd><code>wnP4ntyO9N+/8SNxstAlgxH692f9KP3SCYQtEfKkY7E</code></dd></div>
+              <div><dt>Coding Preset</dt><dd><code>LongFast</code></dd></div>
+            </dl>
+          </aside>
+        </div>
+        <p class="settings-note">The LongFast default channel on frequency slot 20 is also commonly used.</p>
       </div>
     </section>
     <section class="intro container" aria-labelledby="meshtastic-title">
